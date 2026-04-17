@@ -1,0 +1,334 @@
+Running GEMM_CPU_FP32_Layer_Level_LlamaMLP_2025-09-13_17-06-10.txt
+Eigen Nb Threads =16
+[W913 17:06:11.000000000 SparseCsrTensorImpl.cpp:55] Warning: Sparse CSC tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (function operator ())
+M=256, K=1024, N=4096, Sparsity=0.45 +/- 0.05
+PyTorchDense    141      ms, speedup = 1.00
+PyTorchSpCSC    981      ms, speedup = 0.14
+EigenSparse     231      ms, speedup = 0.61
+RSRPP_FP32      1452     ms, speedup = 0.10
+SSR_VEC_TREE    558      ms, speedup = 0.25
+TCSC_FP32       103      ms, speedup = 1.37
+EigenSpars_INT8 902      ms, speedup = 0.16
+RSRPP_INT8      1457     ms, speedup = 0.10
+SSR_TREE_INT8   1481     ms, speedup = 0.10
+TCSC_INT8       25       ms, speedup = 5.62
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.50 +/- 0.05
+PyTorchDense    148      ms, speedup = 1.00
+PyTorchSpCSC    933      ms, speedup = 0.16
+EigenSparse     218      ms, speedup = 0.68
+RSRPP_FP32      1469     ms, speedup = 0.10
+SSR_VEC_TREE    559      ms, speedup = 0.27
+TCSC_FP32       94       ms, speedup = 1.57
+EigenSpars_INT8 839      ms, speedup = 0.18
+RSRPP_INT8      1479     ms, speedup = 0.10
+SSR_TREE_INT8   1450     ms, speedup = 0.10
+TCSC_INT8       22       ms, speedup = 6.73
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.55 +/- 0.05
+PyTorchDense    140      ms, speedup = 1.00
+PyTorchSpCSC    813      ms, speedup = 0.17
+EigenSparse     203      ms, speedup = 0.69
+RSRPP_FP32      1519     ms, speedup = 0.09
+SSR_VEC_TREE    549      ms, speedup = 0.26
+TCSC_FP32       89       ms, speedup = 1.57
+EigenSpars_INT8 753      ms, speedup = 0.19
+RSRPP_INT8      1470     ms, speedup = 0.10
+SSR_TREE_INT8   1396     ms, speedup = 0.10
+TCSC_INT8       19       ms, speedup = 7.24
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.60 +/- 0.05
+PyTorchDense    142      ms, speedup = 1.00
+PyTorchSpCSC    744      ms, speedup = 0.19
+EigenSparse     189      ms, speedup = 0.75
+RSRPP_FP32      1508     ms, speedup = 0.09
+SSR_VEC_TREE    531      ms, speedup = 0.27
+TCSC_FP32       78       ms, speedup = 1.81
+EigenSpars_INT8 683      ms, speedup = 0.21
+RSRPP_INT8      1565     ms, speedup = 0.09
+SSR_TREE_INT8   1356     ms, speedup = 0.11
+TCSC_INT8       18       ms, speedup = 7.54
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.65 +/- 0.05
+PyTorchDense    138      ms, speedup = 1.00
+PyTorchSpCSC    656      ms, speedup = 0.21
+EigenSparse     164      ms, speedup = 0.84
+RSRPP_FP32      1426     ms, speedup = 0.10
+SSR_VEC_TREE    520      ms, speedup = 0.27
+TCSC_FP32       69       ms, speedup = 2.00
+EigenSpars_INT8 610      ms, speedup = 0.23
+RSRPP_INT8      1528     ms, speedup = 0.09
+SSR_TREE_INT8   1267     ms, speedup = 0.11
+TCSC_INT8       16       ms, speedup = 8.52
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.70 +/- 0.05
+PyTorchDense    144      ms, speedup = 1.00
+PyTorchSpCSC    552      ms, speedup = 0.26
+EigenSparse     149      ms, speedup = 0.96
+RSRPP_FP32      1519     ms, speedup = 0.10
+SSR_VEC_TREE    479      ms, speedup = 0.30
+TCSC_FP32       58       ms, speedup = 2.49
+EigenSpars_INT8 507      ms, speedup = 0.28
+RSRPP_INT8      1536     ms, speedup = 0.09
+SSR_TREE_INT8   1207     ms, speedup = 0.12
+TCSC_INT8       14       ms, speedup = 10.24
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.75 +/- 0.05
+PyTorchDense    139      ms, speedup = 1.00
+PyTorchSpCSC    471      ms, speedup = 0.29
+EigenSparse     132      ms, speedup = 1.05
+RSRPP_FP32      1387     ms, speedup = 0.10
+SSR_VEC_TREE    456      ms, speedup = 0.30
+TCSC_FP32       58       ms, speedup = 2.38
+EigenSpars_INT8 441      ms, speedup = 0.31
+RSRPP_INT8      1491     ms, speedup = 0.09
+SSR_TREE_INT8   1109     ms, speedup = 0.13
+TCSC_INT8       12       ms, speedup = 11.13
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.80 +/- 0.05
+PyTorchDense    139      ms, speedup = 1.00
+PyTorchSpCSC    373      ms, speedup = 0.37
+EigenSparse     110      ms, speedup = 1.27
+RSRPP_FP32      1465     ms, speedup = 0.10
+SSR_VEC_TREE    436      ms, speedup = 0.32
+TCSC_FP32       51       ms, speedup = 2.74
+EigenSpars_INT8 337      ms, speedup = 0.41
+RSRPP_INT8      1464     ms, speedup = 0.10
+SSR_TREE_INT8   968      ms, speedup = 0.14
+TCSC_INT8       10       ms, speedup = 12.85
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.85 +/- 0.05
+PyTorchDense    138      ms, speedup = 1.00
+PyTorchSpCSC    291      ms, speedup = 0.48
+EigenSparse     92       ms, speedup = 1.50
+RSRPP_FP32      1347     ms, speedup = 0.10
+SSR_VEC_TREE    337      ms, speedup = 0.41
+TCSC_FP32       42       ms, speedup = 3.30
+EigenSpars_INT8 275      ms, speedup = 0.50
+RSRPP_INT8      1558     ms, speedup = 0.09
+SSR_TREE_INT8   812      ms, speedup = 0.17
+TCSC_INT8       8        ms, speedup = 16.82
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.90 +/- 0.05
+PyTorchDense    145      ms, speedup = 1.00
+PyTorchSpCSC    216      ms, speedup = 0.67
+EigenSparse     74       ms, speedup = 1.97
+RSRPP_FP32      1436     ms, speedup = 0.10
+SSR_VEC_TREE    317      ms, speedup = 0.46
+TCSC_FP32       36       ms, speedup = 3.98
+EigenSpars_INT8 196      ms, speedup = 0.74
+RSRPP_INT8      1468     ms, speedup = 0.10
+SSR_TREE_INT8   603      ms, speedup = 0.24
+TCSC_INT8       5        ms, speedup = 24.46
+
+
+Eigen Nb Threads =16
+M=256, K=1024, N=4096, Sparsity=0.95 +/- 0.05
+PyTorchDense    147      ms, speedup = 1.00
+PyTorchSpCSC    124      ms, speedup = 1.18
+EigenSparse     58       ms, speedup = 2.50
+RSRPP_FP32      1335     ms, speedup = 0.11
+SSR_VEC_TREE    177      ms, speedup = 0.83
+TCSC_FP32       17       ms, speedup = 8.24
+EigenSpars_INT8 102      ms, speedup = 1.44
+RSRPP_INT8      1534     ms, speedup = 0.10
+SSR_TREE_INT8   346      ms, speedup = 0.43
+TCSC_INT8       3        ms, speedup = 47.97
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.45 +/- 0.05
+PyTorchDense    1070     ms, speedup = 1.00
+PyTorchSpCSC    5624     ms, speedup = 0.19
+EigenSparse     1864     ms, speedup = 0.57
+RSRPP_FP32      7198     ms, speedup = 0.15
+SSR_VEC_TREE    4082     ms, speedup = 0.26
+TCSC_FP32       1579     ms, speedup = 0.68
+EigenSpars_INT8 7057     ms, speedup = 0.15
+RSRPP_INT8      11456    ms, speedup = 0.09
+SSR_TREE_INT8   8320     ms, speedup = 0.13
+TCSC_INT8       238      ms, speedup = 4.48
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.50 +/- 0.05
+PyTorchDense    1067     ms, speedup = 1.00
+PyTorchSpCSC    5652     ms, speedup = 0.19
+EigenSparse     1765     ms, speedup = 0.60
+RSRPP_FP32      7830     ms, speedup = 0.14
+SSR_VEC_TREE    4082     ms, speedup = 0.26
+TCSC_FP32       1516     ms, speedup = 0.70
+EigenSpars_INT8 6720     ms, speedup = 0.16
+RSRPP_INT8      11940    ms, speedup = 0.09
+SSR_TREE_INT8   8267     ms, speedup = 0.13
+TCSC_INT8       240      ms, speedup = 4.45
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.55 +/- 0.05
+PyTorchDense    1078     ms, speedup = 1.00
+PyTorchSpCSC    4520     ms, speedup = 0.24
+EigenSparse     1580     ms, speedup = 0.68
+RSRPP_FP32      8076     ms, speedup = 0.13
+SSR_VEC_TREE    3769     ms, speedup = 0.29
+TCSC_FP32       1321     ms, speedup = 0.82
+EigenSpars_INT8 5768     ms, speedup = 0.19
+RSRPP_INT8      11604    ms, speedup = 0.09
+SSR_TREE_INT8   7778     ms, speedup = 0.14
+TCSC_INT8       196      ms, speedup = 5.47
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.60 +/- 0.05
+PyTorchDense    1081     ms, speedup = 1.00
+PyTorchSpCSC    3879     ms, speedup = 0.28
+EigenSparse     1450     ms, speedup = 0.75
+RSRPP_FP32      7344     ms, speedup = 0.15
+SSR_VEC_TREE    3586     ms, speedup = 0.30
+TCSC_FP32       1200     ms, speedup = 0.90
+EigenSpars_INT8 5163     ms, speedup = 0.21
+RSRPP_INT8      11541    ms, speedup = 0.09
+SSR_TREE_INT8   7500     ms, speedup = 0.14
+TCSC_INT8       188      ms, speedup = 5.75
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.65 +/- 0.05
+PyTorchDense    1076     ms, speedup = 1.00
+PyTorchSpCSC    3300     ms, speedup = 0.33
+EigenSparse     1233     ms, speedup = 0.87
+RSRPP_FP32      7378     ms, speedup = 0.15
+SSR_VEC_TREE    3357     ms, speedup = 0.32
+TCSC_FP32       1068     ms, speedup = 1.01
+EigenSpars_INT8 4429     ms, speedup = 0.24
+RSRPP_INT8      11718    ms, speedup = 0.09
+SSR_TREE_INT8   6976     ms, speedup = 0.15
+TCSC_INT8       148      ms, speedup = 7.24
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.70 +/- 0.05
+PyTorchDense    1089     ms, speedup = 1.00
+PyTorchSpCSC    2961     ms, speedup = 0.37
+EigenSparse     1110     ms, speedup = 0.98
+RSRPP_FP32      7365     ms, speedup = 0.15
+SSR_VEC_TREE    3128     ms, speedup = 0.35
+TCSC_FP32       918      ms, speedup = 1.19
+EigenSpars_INT8 3790     ms, speedup = 0.29
+RSRPP_INT8      11649    ms, speedup = 0.09
+SSR_TREE_INT8   6536     ms, speedup = 0.17
+TCSC_INT8       131      ms, speedup = 8.31
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.75 +/- 0.05
+PyTorchDense    1058     ms, speedup = 1.00
+PyTorchSpCSC    2398     ms, speedup = 0.44
+EigenSparse     926      ms, speedup = 1.14
+RSRPP_FP32      7296     ms, speedup = 0.15
+SSR_VEC_TREE    2850     ms, speedup = 0.37
+TCSC_FP32       812      ms, speedup = 1.30
+EigenSpars_INT8 3206     ms, speedup = 0.33
+RSRPP_INT8      11631    ms, speedup = 0.09
+SSR_TREE_INT8   6006     ms, speedup = 0.18
+TCSC_INT8       116      ms, speedup = 9.10
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.80 +/- 0.05
+PyTorchDense    1048     ms, speedup = 1.00
+PyTorchSpCSC    2016     ms, speedup = 0.52
+EigenSparse     766      ms, speedup = 1.37
+RSRPP_FP32      7326     ms, speedup = 0.14
+SSR_VEC_TREE    2557     ms, speedup = 0.41
+TCSC_FP32       646      ms, speedup = 1.62
+EigenSpars_INT8 2583     ms, speedup = 0.41
+RSRPP_INT8      11557    ms, speedup = 0.09
+SSR_TREE_INT8   5297     ms, speedup = 0.20
+TCSC_INT8       99       ms, speedup = 10.51
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.85 +/- 0.05
+PyTorchDense    1073     ms, speedup = 1.00
+PyTorchSpCSC    1469     ms, speedup = 0.73
+EigenSparse     583      ms, speedup = 1.84
+RSRPP_FP32      7372     ms, speedup = 0.15
+SSR_VEC_TREE    2146     ms, speedup = 0.50
+TCSC_FP32       547      ms, speedup = 1.96
+EigenSpars_INT8 1970     ms, speedup = 0.55
+RSRPP_INT8      11538    ms, speedup = 0.09
+SSR_TREE_INT8   4438     ms, speedup = 0.24
+TCSC_INT8       77       ms, speedup = 13.83
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.90 +/- 0.05
+PyTorchDense    1072     ms, speedup = 1.00
+PyTorchSpCSC    1178     ms, speedup = 0.91
+EigenSparse     437      ms, speedup = 2.45
+RSRPP_FP32      7350     ms, speedup = 0.15
+SSR_VEC_TREE    1637     ms, speedup = 0.66
+TCSC_FP32       370      ms, speedup = 2.90
+EigenSpars_INT8 1339     ms, speedup = 0.80
+RSRPP_INT8      11632    ms, speedup = 0.09
+SSR_TREE_INT8   3299     ms, speedup = 0.33
+TCSC_INT8       57       ms, speedup = 18.61
+
+
+Eigen Nb Threads =16
+M=512, K=2048, N=8192, Sparsity=0.95 +/- 0.05
+PyTorchDense    1086     ms, speedup = 1.00
+PyTorchSpCSC    701      ms, speedup = 1.55
+EigenSparse     272      ms, speedup = 3.98
+RSRPP_FP32      7321     ms, speedup = 0.15
+SSR_VEC_TREE    970      ms, speedup = 1.12
+TCSC_FP32       169      ms, speedup = 6.40
+EigenSpars_INT8 688      ms, speedup = 1.58
+RSRPP_INT8      11525    ms, speedup = 0.09
+SSR_TREE_INT8   1906     ms, speedup = 0.57
+TCSC_INT8       34       ms, speedup = 31.30
+
+
+speedup
+PyTorchDense    PyTorchSpCSC    EigenSparse     RSRPP_FP32      SSR_VEC_TREE    TCSC_FP32       EigenSpars_INT8 RSRPP_INT8      SSR_TREE_INT8   TCSC_INT8
+M=256 K=1024 N=4096 S=0.45 +/- 0.05     1.00    0.14    0.61    0.10    0.25    1.37    0.16    0.10    0.10    5.62
+M=256 K=1024 N=4096 S=0.50 +/- 0.05     1.00    0.16    0.68    0.10    0.27    1.57    0.18    0.10    0.10    6.73
+M=256 K=1024 N=4096 S=0.55 +/- 0.05     1.00    0.17    0.69    0.09    0.26    1.57    0.19    0.10    0.10    7.24
+M=256 K=1024 N=4096 S=0.60 +/- 0.05     1.00    0.19    0.75    0.09    0.27    1.81    0.21    0.09    0.11    7.54
+M=256 K=1024 N=4096 S=0.65 +/- 0.05     1.00    0.21    0.84    0.10    0.27    2.00    0.23    0.09    0.11    8.52
+M=256 K=1024 N=4096 S=0.70 +/- 0.05     1.00    0.26    0.96    0.10    0.30    2.49    0.28    0.09    0.12    10.24
+M=256 K=1024 N=4096 S=0.75 +/- 0.05     1.00    0.29    1.05    0.10    0.30    2.38    0.31    0.09    0.13    11.13
+M=256 K=1024 N=4096 S=0.80 +/- 0.05     1.00    0.37    1.27    0.10    0.32    2.74    0.41    0.10    0.14    12.85
+M=256 K=1024 N=4096 S=0.85 +/- 0.05     1.00    0.48    1.50    0.10    0.41    3.30    0.50    0.09    0.17    16.82
+M=256 K=1024 N=4096 S=0.90 +/- 0.05     1.00    0.67    1.97    0.10    0.46    3.98    0.74    0.10    0.24    24.46
+M=256 K=1024 N=4096 S=0.95 +/- 0.05     1.00    1.18    2.50    0.11    0.83    8.24    1.44    0.10    0.43    47.97
+M=512 K=2048 N=8192 S=0.45 +/- 0.05     1.00    0.19    0.57    0.15    0.26    0.68    0.15    0.09    0.13    4.48
+M=512 K=2048 N=8192 S=0.50 +/- 0.05     1.00    0.19    0.60    0.14    0.26    0.70    0.16    0.09    0.13    4.45
+M=512 K=2048 N=8192 S=0.55 +/- 0.05     1.00    0.24    0.68    0.13    0.29    0.82    0.19    0.09    0.14    5.47
+M=512 K=2048 N=8192 S=0.60 +/- 0.05     1.00    0.28    0.75    0.15    0.30    0.90    0.21    0.09    0.14    5.75
+M=512 K=2048 N=8192 S=0.65 +/- 0.05     1.00    0.33    0.87    0.15    0.32    1.01    0.24    0.09    0.15    7.24
+M=512 K=2048 N=8192 S=0.70 +/- 0.05     1.00    0.37    0.98    0.15    0.35    1.19    0.29    0.09    0.17    8.31
+M=512 K=2048 N=8192 S=0.75 +/- 0.05     1.00    0.44    1.14    0.15    0.37    1.30    0.33    0.09    0.18    9.10
+M=512 K=2048 N=8192 S=0.80 +/- 0.05     1.00    0.52    1.37    0.14    0.41    1.62    0.41    0.09    0.20    10.51
+M=512 K=2048 N=8192 S=0.85 +/- 0.05     1.00    0.73    1.84    0.15    0.50    1.96    0.55    0.09    0.24    13.83
+M=512 K=2048 N=8192 S=0.90 +/- 0.05     1.00    0.91    2.45    0.15    0.66    2.90    0.80    0.09    0.33    18.61
+M=512 K=2048 N=8192 S=0.95 +/- 0.05     1.00    1.55    3.98    0.15    1.12    6.40    1.58    0.09    0.57    31.30

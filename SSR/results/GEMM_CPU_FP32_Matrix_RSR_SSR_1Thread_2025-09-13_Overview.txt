@@ -1,0 +1,135 @@
+Running GEMM_CPU_FP32_Matrix_RSR_SSR_1Thread_2025-09-13_11-36-23.txt
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.45 +/- 0.05
+EigenDense      535      ms, speedup = 1.00
+EigenSparse     927      ms, speedup = 0.58
+RSR_______      6700     ms, speedup = 0.08
+RSRPP_____      6165     ms, speedup = 0.09
+SSR_______      5994     ms, speedup = 0.09
+SSR_VEC___      5188     ms, speedup = 0.10
+SSR_VEC_TREE    1263     ms, speedup = 0.42
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.50 +/- 0.05
+EigenDense      534      ms, speedup = 1.00
+EigenSparse     843      ms, speedup = 0.63
+RSR_______      6750     ms, speedup = 0.08
+RSRPP_____      6194     ms, speedup = 0.09
+SSR_______      5908     ms, speedup = 0.09
+SSR_VEC___      5033     ms, speedup = 0.11
+SSR_VEC_TREE    1217     ms, speedup = 0.44
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.55 +/- 0.05
+EigenDense      535      ms, speedup = 1.00
+EigenSparse     763      ms, speedup = 0.70
+RSR_______      6800     ms, speedup = 0.08
+RSRPP_____      6258     ms, speedup = 0.09
+SSR_______      5808     ms, speedup = 0.09
+SSR_VEC___      4898     ms, speedup = 0.11
+SSR_VEC_TREE    1184     ms, speedup = 0.45
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.60 +/- 0.05
+EigenDense      536      ms, speedup = 1.00
+EigenSparse     702      ms, speedup = 0.76
+RSR_______      6875     ms, speedup = 0.08
+RSRPP_____      6300     ms, speedup = 0.09
+SSR_______      5606     ms, speedup = 0.10
+SSR_VEC___      4695     ms, speedup = 0.11
+SSR_VEC_TREE    1142     ms, speedup = 0.47
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.65 +/- 0.05
+EigenDense      540      ms, speedup = 1.00
+EigenSparse     609      ms, speedup = 0.89
+RSR_______      6909     ms, speedup = 0.08
+RSRPP_____      6371     ms, speedup = 0.08
+SSR_______      5377     ms, speedup = 0.10
+SSR_VEC___      4471     ms, speedup = 0.12
+SSR_VEC_TREE    1109     ms, speedup = 0.49
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.70 +/- 0.05
+EigenDense      533      ms, speedup = 1.00
+EigenSparse     526      ms, speedup = 1.01
+RSR_______      6957     ms, speedup = 0.08
+RSRPP_____      6398     ms, speedup = 0.08
+SSR_______      5025     ms, speedup = 0.11
+SSR_VEC___      4169     ms, speedup = 0.13
+SSR_VEC_TREE    1034     ms, speedup = 0.52
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.75 +/- 0.05
+EigenDense      538      ms, speedup = 1.00
+EigenSparse     429      ms, speedup = 1.25
+RSR_______      6968     ms, speedup = 0.08
+RSRPP_____      6382     ms, speedup = 0.08
+SSR_______      4682     ms, speedup = 0.12
+SSR_VEC___      3829     ms, speedup = 0.14
+SSR_VEC_TREE    962      ms, speedup = 0.56
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.80 +/- 0.05
+EigenDense      534      ms, speedup = 1.00
+EigenSparse     351      ms, speedup = 1.52
+RSR_______      7000     ms, speedup = 0.08
+RSRPP_____      6508     ms, speedup = 0.08
+SSR_______      4288     ms, speedup = 0.12
+SSR_VEC___      3379     ms, speedup = 0.16
+SSR_VEC_TREE    866      ms, speedup = 0.62
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.85 +/- 0.05
+EigenDense      527      ms, speedup = 1.00
+EigenSparse     276      ms, speedup = 1.91
+RSR_______      6912     ms, speedup = 0.08
+RSRPP_____      6394     ms, speedup = 0.08
+SSR_______      3636     ms, speedup = 0.15
+SSR_VEC___      2828     ms, speedup = 0.19
+SSR_VEC_TREE    705      ms, speedup = 0.75
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.90 +/- 0.05
+EigenDense      540      ms, speedup = 1.00
+EigenSparse     178      ms, speedup = 3.02
+RSR_______      6789     ms, speedup = 0.08
+RSRPP_____      6230     ms, speedup = 0.09
+SSR_______      3049     ms, speedup = 0.18
+SSR_VEC___      2152     ms, speedup = 0.25
+SSR_VEC_TREE    540      ms, speedup = 1.00
+
+
+Eigen Threads: 1
+M=512, K=1024, N=4096, Sparsity=0.95 +/- 0.05
+EigenDense      542      ms, speedup = 1.00
+EigenSparse     96       ms, speedup = 5.63
+RSR_______      6572     ms, speedup = 0.08
+RSRPP_____      6092     ms, speedup = 0.09
+SSR_______      2108     ms, speedup = 0.26
+SSR_VEC___      1262     ms, speedup = 0.43
+SSR_VEC_TREE    301      ms, speedup = 1.80
+
+
+speedup
+EigenDense      EigenSparse     RSR_______      RSRPP_____      SSR_______      SSR_VEC___      SSR_VEC_TREE
+M=512 K=1024 N=4096 S=0.45 +/- 0.05     1.00    0.58    0.08    0.09    0.09    0.10    0.42
+M=512 K=1024 N=4096 S=0.50 +/- 0.05     1.00    0.63    0.08    0.09    0.09    0.11    0.44
+M=512 K=1024 N=4096 S=0.55 +/- 0.05     1.00    0.70    0.08    0.09    0.09    0.11    0.45
+M=512 K=1024 N=4096 S=0.60 +/- 0.05     1.00    0.76    0.08    0.09    0.10    0.11    0.47
+M=512 K=1024 N=4096 S=0.65 +/- 0.05     1.00    0.89    0.08    0.08    0.10    0.12    0.49
+M=512 K=1024 N=4096 S=0.70 +/- 0.05     1.00    1.01    0.08    0.08    0.11    0.13    0.52
+M=512 K=1024 N=4096 S=0.75 +/- 0.05     1.00    1.25    0.08    0.08    0.12    0.14    0.56
+M=512 K=1024 N=4096 S=0.80 +/- 0.05     1.00    1.52    0.08    0.08    0.12    0.16    0.62
+M=512 K=1024 N=4096 S=0.85 +/- 0.05     1.00    1.91    0.08    0.08    0.15    0.19    0.75
+M=512 K=1024 N=4096 S=0.90 +/- 0.05     1.00    3.02    0.08    0.09    0.18    0.25    1.00
+M=512 K=1024 N=4096 S=0.95 +/- 0.05     1.00    5.63    0.08    0.09    0.26    0.43    1.80

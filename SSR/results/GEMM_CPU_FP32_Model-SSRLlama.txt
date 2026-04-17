@@ -1,0 +1,43 @@
+Running performance
+L=16, M=512, K=2048, N=8192
+SSRLlama        428136   ms, speedup = 1.00
+
+
+L=16, M=512, K=2048, N=8192
+SSRLlama        354745   ms, speedup = 1.00
+
+
+L=16, M=512, K=2048, N=8192
+SSRLlama        193241   ms, speedup = 1.00
+
+Multi-thread version
+
+Running performance Memory Usage: 2908-2960 MB
+Init Model...
+L=16, M=512, K=2048, N=8192, Sparsity=0.5
+SSRLlama        104944   ms, speedup = 1.00
+
+
+Init Model...
+L=16, M=512, K=2048, N=8192, Sparsity=0.70
+SSRLlama        87961    ms, speedup = 1.00
+
+
+Init Model...
+L=16, M=512, K=2048, N=8192, Sparsity=0.90
+SSRLlama        57115    ms, speedup = 1.00
+
+Running performance  Memory Usage: 3100-3113 MB
+Init Model...
+L=16, M=512, K=2048, N=8192, Sparsity=0.5
+RSRLlama        362356   ms, speedup = 1.00
+
+
+Init Model...
+L=16, M=512, K=2048, N=8192, Sparsity=0.70
+RSRLlama        363029   ms, speedup = 1.00
+
+
+Init Model...
+L=16, M=512, K=2048, N=8192, Sparsity=0.90
+RSRLlama        361915   ms, speedup = 1.00
